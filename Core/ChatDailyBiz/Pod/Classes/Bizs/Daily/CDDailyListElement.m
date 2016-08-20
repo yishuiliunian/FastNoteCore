@@ -9,7 +9,13 @@
 #import <Foundation/Foundation.h>
 #import "CDDailyListElement.h"
 #import "CDDailyListViewController.h"
+
+@interface CDDailyListElement ()<DZInputProtocol>
+@end
+
 @implementation CDDailyListElement
+@synthesize AIOToolbarType = _AIOToolbarType;
+@synthesize inputViewController = _inputViewController;
 - (void) reloadData
 {
     [super reloadData];

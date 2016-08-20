@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => "http://www.catchitime.com:8081/diffusion/CHATDAILYBIZ/chatdailybiz.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '4.0'
-  s.requires_arc = true
+  s.platform     = :ios, '8.0'
+ # s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
