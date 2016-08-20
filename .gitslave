@@ -2,5 +2,4 @@
 "http://www.catchitime.com:8081/diffusion/CDCORE/chatdailycore.git" "Core/ChatDailyCore"
 "http://www.catchitime.com:8081/diffusion/CDCORE/chatdailycore.git" "Core/ChatDailyCore"
 "https://github.com/yishuiliunian/ElementKit" "Libs/ElementKit"
-"https://github.com/yishuiliunian/EKInputExtention" "EKInputExtention"
-"https://github.com/yishuiliunian/MRLogicInjection" "MRLogicInjection"
+"https://github.com/yishuiliunian/MRLogicInjection" "Libs/MRLogicInjection"
