@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DB262ADCB14B9A2D4C036AC2EF4861A8E34A1701",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7245F8EC9A181A77D1F5003FDA9DFFEC1320F9EB" : 0,
+    "DB262ADCB14B9A2D4C036AC2EF4861A8E34A1701" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "68FF6D43-2F2E-460A-908B-E3E721D7DE49",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7245F8EC9A181A77D1F5003FDA9DFFEC1320F9EB" : "..",
+    "DB262ADCB14B9A2D4C036AC2EF4861A8E34A1701" : "ChatDailyCore\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ChatDaily",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ChatDaily\/ChatDaily.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.catchitime.com:8081\/diffusion\/CDPROJECT\/chatdailyproject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7245F8EC9A181A77D1F5003FDA9DFFEC1320F9EB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.catchitime.com:8081\/diffusion\/CDCORE\/chatdailycore.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DB262ADCB14B9A2D4C036AC2EF4861A8E34A1701"
+    }
+  ]
+}
