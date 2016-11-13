@@ -184,6 +184,7 @@
 				TargetAttributes = {
 					659108FC1D68124A00361896 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9WZQSGSX3A;
 					};
 					659109151D68124A00361896 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -435,6 +436,7 @@
 			baseConfigurationReference = 6FDC3FDC362B6425E4A52361 /* Pods-ChatDaily.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9WZQSGSX3A;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ChatDaily/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -448,6 +450,7 @@
 			baseConfigurationReference = 6AE49AC5956EA8CE89D799D1 /* Pods-ChatDaily.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9WZQSGSX3A;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ChatDaily/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ChatDailyBiz/CDApplicationDelegate.h>
+#import <ChatDailyMain/CDApplicationDelegate.h>
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {

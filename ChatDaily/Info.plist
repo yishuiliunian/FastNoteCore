@@ -39,5 +39,19 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>ChatNote</string>
+	<key>NSCameraUsageDescription</key>
+	<string>ChatNote</string>
+	<key>NSLocationUsageDescription</key>
+	<string>ChatNote</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>ChatNote</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>ChatNote</string>
+	<key>NSMotionUsageDescription</key>
+	<string>ChatNote</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>ChatNote</string>
 </dict>
 </plist>

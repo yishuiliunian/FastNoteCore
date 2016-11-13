@@ -2,10 +2,10 @@
 # platform :ios, '9.0'
 
 def LibPod(name)
-  pod name , :path=>"../../../Libs/"+name
+  pod name , :path=>"../Libs/"+name
 end
 def BizPod(name)
-  pod name , :path=>"../../"+name
+  pod name , :path=>"../Bizs/"+name
 end
 
 post_install do |installer|
@@ -36,11 +36,16 @@ target 'ChatDaily' do
   LibPod('MWPhotoBrowser')
   LibPod('DZScene')
   LibPod('MRLogicInjection')
+  LibPod('DZFixImage')
+  LibPod('DZLKDataBasePool')
+  LibPod('DZViewControllerLifeCircleAction')
+  BizPod('ChatDailyMain')
+  
 
-  BizPod('ChatDailyBiz')
-  BizPod('ChatDailyProtobuff')
 
-
+  #pod
+  pod 'QBPopupMenu'
+  pod 'ChameleonFramework'
   target 'ChatDailyUITests' do
     inherit! :search_paths
     # Pods for testing
