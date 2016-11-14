@@ -12,6 +12,7 @@ PODS:
   - ChameleonFramework/Default (2.1.0)
   - ChatDailyMain (0.1.0):
     - LKDBHelper
+    - MGSwipeTableCell
   - CocoaLumberjack (3.0.0):
     - CocoaLumberjack/Default (= 3.0.0)
     - CocoaLumberjack/Extensions (= 3.0.0)
@@ -21,6 +22,7 @@ PODS:
   - CocoaLumberjack/Extensions (3.0.0):
     - CocoaLumberjack/Default
   - DACircularProgress (2.3.1)
+  - DateTools (1.7.0)
   - DZAdjustFrame (0.2.5):
     - DZGeometryTools
   - DZAlertPool (0.1.0):
@@ -70,6 +72,9 @@ PODS:
   - DZScene (0.1.0):
     - ElementKit
   - DZSinglonFactory (1.0.3)
+  - DZURLRoute (0.2.0):
+    - DZViewControllerLifeCircleAction
+    - NSString-UrlEncode
   - DZViewControllerLifeCircleAction (0.1.0)
   - EKInputExtention (0.1.0):
     - BEMCheckBox
@@ -91,12 +96,14 @@ PODS:
     - FMDB
   - MBProgressHUD (0.9.2)
   - MD5Digest (1.1.0)
+  - MGSwipeTableCell (1.5.6)
   - MJRefresh (3.1.12)
   - MRLogicInjection (0.1.0)
   - MWPhotoBrowser (2.1.2):
     - DACircularProgress (~> 2.3)
     - MBProgressHUD (~> 0.9)
     - SDWebImage (!= 3.7.2, ~> 3.7)
+  - NSString-UrlEncode (2.1.0)
   - QBPopupMenu (2.0)
   - RSKImageCropper (1.5.1)
   - SDWebImage (3.8.2):
@@ -116,11 +123,13 @@ PODS:
     - DZLogger
     - DZProgrameDefines
     - ElementKit
+  - YYModel (1.0.4)
   - YYText (1.0.5)
 
 DEPENDENCIES:
   - ChameleonFramework
   - ChatDailyMain (from `../Bizs/ChatDailyMain`)
+  - DateTools
   - DZAdjustFrame (from `../Libs/DZAdjustFrame`)
   - DZAlertPool (from `../Libs/DZAlertPool`)
   - DZAudio (from `../Libs/DZAudio`)
@@ -135,6 +144,7 @@ DEPENDENCIES:
   - DZLogger (from `../Libs/DZLogger`)
   - DZProgrameDefines (from `../Libs/DZProgrameDefines`)
   - DZScene (from `../Libs/DZScene`)
+  - DZURLRoute (from `../Libs/DZURLRoute`)
   - DZViewControllerLifeCircleAction (from `../Libs/DZViewControllerLifeCircleAction`)
   - EKInputExtention (from `../Libs/EKInputExtention`)
   - ElementKit (from `../Libs/ElementKit`)
@@ -143,6 +153,7 @@ DEPENDENCIES:
   - QBPopupMenu
   - StyleSheet (from `../Libs/StyleSheet`)
   - YHMapLocation (from `../Libs/YHMapLocation`)
+  - YYModel
   - YYText (from `../Libs/YYText`)
 
 EXTERNAL SOURCES:
@@ -176,6 +187,8 @@ EXTERNAL SOURCES:
     :path: "../Libs/DZProgrameDefines"
   DZScene:
     :path: "../Libs/DZScene"
+  DZURLRoute:
+    :path: "../Libs/DZURLRoute"
   DZViewControllerLifeCircleAction:
     :path: "../Libs/DZViewControllerLifeCircleAction"
   EKInputExtention:
@@ -200,9 +213,10 @@ SPEC CHECKSUMS:
   AMapSearch: a6c7c83905dbe12aa059c7ff83cb0726cb4fc32f
   BEMCheckBox: 264b8b72aa92adbfefa265cc58a0cdb86b207b9f
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
-  ChatDailyMain: 4fc7007718293acecadb3b596c84ce5b4341dba4
+  ChatDailyMain: 5e522912d9f6943fa0241a65fe2442e239c40996
   CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
   DZAdjustFrame: 9f6bec77a35012eab390a0593e47ef669bdf6324
   DZAlertPool: 0cc9e18d3cf600330d87eb61c408c449b9a445e0
   DZAudio: 83560c9c0a1ed0620bad7d4c66c2c216ce2ecb47
@@ -219,6 +233,7 @@ SPEC CHECKSUMS:
   DZProgrameDefines: 289bf6de05dd26c8fc3ee63184941a6af234ad60
   DZScene: b7ef5819da7620de0d283b1efd34829e3eab8eb5
   DZSinglonFactory: c6c1e41f7688a9112a3a6b69fc246ea3a1180aed
+  DZURLRoute: fca1bbb98c236fe6ff1dd682d522f3cb82d13220
   DZViewControllerLifeCircleAction: ea2ee041ace05e198c7712a94240e1c376cd77ae
   EKInputExtention: a604ef066fcfbac265de884159b6edc19a3f070e
   ElementKit: 483a24babbe54279993e9008ba319eb79e8e6ef8
@@ -228,9 +243,11 @@ SPEC CHECKSUMS:
   LKDBHelper: 1162892ca4ffc28029070d6f40f57b333133f1c4
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MD5Digest: fea371215507cfcdc3c9633d02cffc7fd075ebc3
+  MGSwipeTableCell: 616700eb0ffd1c611ba909066cb7fd739790a0a7
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   MRLogicInjection: 5d514d80f9a6c72bbe29fbda8af2db72fbb746ce
   MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  NSString-UrlEncode: 92dcb01cac33ef036cda76baf0e4378b18779e47
   QBPopupMenu: e370cbc7ad8a8d09afe1726117aa18f92696f66a
   RSKImageCropper: edd65fedb3734332818deb139906d6b7f54b8a44
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
@@ -239,8 +256,9 @@ SPEC CHECKSUMS:
   SZTextView: 3a81174dce0710a9ab069bc73a813e6df53b9c82
   TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
   YHMapLocation: 64e62378e4024a2687a0c671ec7096a5e98b1d11
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: ac09660c9ccd9b817f409a20caa6f5587444d2ae
 
-PODFILE CHECKSUM: a72a2c2222f4e853a09b2126fa9920574a792440
+PODFILE CHECKSUM: 0aa4f5587b5debaaf16c9d669115fe17d6887a28
 
 COCOAPODS: 1.0.1

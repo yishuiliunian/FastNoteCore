@@ -39,6 +39,7 @@ target 'ChatDaily' do
   LibPod('DZFixImage')
   LibPod('DZLKDataBasePool')
   LibPod('DZViewControllerLifeCircleAction')
+  LibPod('DZURLRoute')
   BizPod('ChatDailyMain')
   
 
@@ -46,6 +47,10 @@ target 'ChatDaily' do
   #pod
   pod 'QBPopupMenu'
   pod 'ChameleonFramework'
+  pod 'DateTools'
+  pod 'YYModel'
+
+
   target 'ChatDailyUITests' do
     inherit! :search_paths
     # Pods for testing
