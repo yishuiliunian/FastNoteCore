@@ -67,7 +67,7 @@
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ChatDaily.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yishuiliunian\/DZObjectProxy.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yishuiliunian\/DZObjectProxy",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "03FA80AED54CE9FFC6072D8141B937CB76AE9BED"
     },
@@ -152,7 +152,7 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88691D031F587C6C381D4C777E7313C3EF0CD01B"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yishuiliunian\/DZShyNavigationBar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yishuiliunian\/DZShyNavigationBar",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9855FDC0D88C16A799D7A30EA26507DC3F96B860"
     },

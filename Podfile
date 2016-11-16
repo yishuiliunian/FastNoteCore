@@ -52,7 +52,7 @@ target 'ChatDaily' do
   pod 'ChameleonFramework'
   pod 'DateTools'
   pod 'YYModel'
-
+  pod 'QBPopupMenu'
 
   target 'ChatDailyUITests' do
     inherit! :search_paths
