@@ -11,6 +11,7 @@ PODS:
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
   - ChatDailyMain (0.1.0):
+    - GTScrollNavigationBar
     - LKDBHelper
     - MGSwipeTableCell
   - CocoaLumberjack (3.0.0):
@@ -93,6 +94,7 @@ PODS:
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
+  - GTScrollNavigationBar (0.4)
   - HexColors (4.0.0)
   - LKDBHelper (2.4):
     - FMDB
@@ -221,7 +223,7 @@ SPEC CHECKSUMS:
   AMapSearch: a6c7c83905dbe12aa059c7ff83cb0726cb4fc32f
   BEMCheckBox: 264b8b72aa92adbfefa265cc58a0cdb86b207b9f
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
-  ChatDailyMain: 5e522912d9f6943fa0241a65fe2442e239c40996
+  ChatDailyMain: ae6823daaf5ca360919b9661593bc54516a392a9
   CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
@@ -249,6 +251,7 @@ SPEC CHECKSUMS:
   ElementKit: 483a24babbe54279993e9008ba319eb79e8e6ef8
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  GTScrollNavigationBar: 17e80b99c4250c92c82f31cd5e052a99422c2195
   HexColors: 5f95843ef89aff6a72e1fd3a8ebabf205cc43379
   LKDBHelper: 1162892ca4ffc28029070d6f40f57b333133f1c4
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1

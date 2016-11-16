@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4883B4671D98CF88DAB60BCE /* libPods-ChatDaily.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E921C94DC83679DEE9147CB /* libPods-ChatDaily.a */; };
+		658ED01E1DDA13D400E26435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6591090C1D68124A00361896 /* Assets.xcassets */; };
 		659109021D68124A00361896 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 659109011D68124A00361896 /* main.m */; };
-		6591090D1D68124A00361896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6591090C1D68124A00361896 /* Assets.xcassets */; };
 		659109101D68124A00361896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6591090E1D68124A00361896 /* LaunchScreen.storyboard */; };
 		6591091B1D68124A00361896 /* ChatDailyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6591091A1D68124A00361896 /* ChatDailyUITests.m */; };
 		9C6BDF96337D75B460DD0CBA /* libPods-ChatDailyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FDB7B7DB8991BAB5D2E781 /* libPods-ChatDailyUITests.a */; };
@@ -217,8 +217,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658ED01E1DDA13D400E26435 /* Assets.xcassets in Resources */,
 				659109101D68124A00361896 /* LaunchScreen.storyboard in Resources */,
-				6591090D1D68124A00361896 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
