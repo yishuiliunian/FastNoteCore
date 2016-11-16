@@ -40,6 +40,9 @@ target 'ChatDaily' do
   LibPod('DZLKDataBasePool')
   LibPod('DZViewControllerLifeCircleAction')
   LibPod('DZURLRoute')
+  LibPod('DZShyNavigationBar')
+  LibPod('DZObjectProxy')
+
   BizPod('ChatDailyMain')
   
 

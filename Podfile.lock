@@ -68,9 +68,11 @@ PODS:
     - MD5Digest
   - DZLogger (0.1.0):
     - CocoaLumberjack
+  - DZObjectProxy (0.1.0)
   - DZProgrameDefines (1.0.2)
   - DZScene (0.1.0):
     - ElementKit
+  - DZShyNavigationBar (0.1.0)
   - DZSinglonFactory (1.0.3)
   - DZURLRoute (0.2.0):
     - DZViewControllerLifeCircleAction
@@ -110,7 +112,7 @@ PODS:
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
   - StyleSheet (0.1.5)
-  - SVProgressHUD (2.0.3)
+  - SVProgressHUD (2.0.4)
   - SZTextView (1.2.2)
   - TransitionKit (2.2.1)
   - YHMapLocation (0.1.0):
@@ -142,8 +144,10 @@ DEPENDENCIES:
   - DZKeyboardManager (from `../Libs/DZKeyboardManager`)
   - DZLKDataBasePool (from `../Libs/DZLKDataBasePool`)
   - DZLogger (from `../Libs/DZLogger`)
+  - DZObjectProxy (from `../Libs/DZObjectProxy`)
   - DZProgrameDefines (from `../Libs/DZProgrameDefines`)
   - DZScene (from `../Libs/DZScene`)
+  - DZShyNavigationBar (from `../Libs/DZShyNavigationBar`)
   - DZURLRoute (from `../Libs/DZURLRoute`)
   - DZViewControllerLifeCircleAction (from `../Libs/DZViewControllerLifeCircleAction`)
   - EKInputExtention (from `../Libs/EKInputExtention`)
@@ -183,10 +187,14 @@ EXTERNAL SOURCES:
     :path: "../Libs/DZLKDataBasePool"
   DZLogger:
     :path: "../Libs/DZLogger"
+  DZObjectProxy:
+    :path: "../Libs/DZObjectProxy"
   DZProgrameDefines:
     :path: "../Libs/DZProgrameDefines"
   DZScene:
     :path: "../Libs/DZScene"
+  DZShyNavigationBar:
+    :path: "../Libs/DZShyNavigationBar"
   DZURLRoute:
     :path: "../Libs/DZURLRoute"
   DZViewControllerLifeCircleAction:
@@ -230,8 +238,10 @@ SPEC CHECKSUMS:
   DZKeyboardManager: bb3f715c0e2b2dd89a077f2a92720da35ea2bd10
   DZLKDataBasePool: ad15410c16af5293c35e9772e7adb544377c8dd9
   DZLogger: ca52fa19cb59a6b282468deb0e76832081c3e512
+  DZObjectProxy: b6dfa6cca2b2fe1f90e9ad8a470bb8ae815788c1
   DZProgrameDefines: 289bf6de05dd26c8fc3ee63184941a6af234ad60
   DZScene: b7ef5819da7620de0d283b1efd34829e3eab8eb5
+  DZShyNavigationBar: 4a8f9b5789470f2df067c335a5a42dc339dfd5ed
   DZSinglonFactory: c6c1e41f7688a9112a3a6b69fc246ea3a1180aed
   DZURLRoute: fca1bbb98c236fe6ff1dd682d522f3cb82d13220
   DZViewControllerLifeCircleAction: ea2ee041ace05e198c7712a94240e1c376cd77ae
@@ -252,13 +262,13 @@ SPEC CHECKSUMS:
   RSKImageCropper: edd65fedb3734332818deb139906d6b7f54b8a44
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   StyleSheet: 4bd20fed26488f27abcfc18225384b1c4125a551
-  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
   SZTextView: 3a81174dce0710a9ab069bc73a813e6df53b9c82
   TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
   YHMapLocation: 64e62378e4024a2687a0c671ec7096a5e98b1d11
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: ac09660c9ccd9b817f409a20caa6f5587444d2ae
 
-PODFILE CHECKSUM: 0aa4f5587b5debaaf16c9d669115fe17d6887a28
+PODFILE CHECKSUM: 452445dc1045c06101b8c2946137563700e55d28
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.1

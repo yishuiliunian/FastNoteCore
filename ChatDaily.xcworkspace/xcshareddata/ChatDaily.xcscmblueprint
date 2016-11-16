@@ -4,9 +4,11 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "EE572E37216C86DBCAC86493955253680F5C4662" : 9223372036854775807,
+    "03FA80AED54CE9FFC6072D8141B937CB76AE9BED" : 9223372036854775807,
+    "9855FDC0D88C16A799D7A30EA26507DC3F96B860" : 9223372036854775807,
     "40E18C0D29EB9957E6F1B402EAF506BDCAF76542" : 9223372036854775807,
     "6A9E8EC81F908EA2FDF28887C59A484D962EF237" : 9223372036854775807,
+    "EE572E37216C86DBCAC86493955253680F5C4662" : 9223372036854775807,
     "5EB8331F151BA00A662DE3B801D877B8104985FE" : 9223372036854775807,
     "72209EB7DEDAC41975ABC9FE387BA92E76578519" : 9223372036854775807,
     "A859CBAA3948FE86A55FEDD3EBCB3BEFA0691552" : 9223372036854775807,
@@ -32,9 +34,11 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "430EB7AD-2FCA-4AF3-9EB6-416979C3B816",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "EE572E37216C86DBCAC86493955253680F5C4662" : "Libs\/YYText\/",
+    "03FA80AED54CE9FFC6072D8141B937CB76AE9BED" : "Libs\/DZObjectProxy\/",
+    "9855FDC0D88C16A799D7A30EA26507DC3F96B860" : "Libs\/DZShyNavigationBar\/",
     "40E18C0D29EB9957E6F1B402EAF506BDCAF76542" : "Libs\/DZFileUtils\/",
     "6A9E8EC81F908EA2FDF28887C59A484D962EF237" : "Libs\/YHMapLocation\/",
+    "EE572E37216C86DBCAC86493955253680F5C4662" : "Libs\/YYText\/",
     "5EB8331F151BA00A662DE3B801D877B8104985FE" : "Libs\/DZLogger\/",
     "72209EB7DEDAC41975ABC9FE387BA92E76578519" : "Libs\/DZAdjustFrame\/",
     "A859CBAA3948FE86A55FEDD3EBCB3BEFA0691552" : "Libs\/DZAudio\/",
@@ -62,6 +66,11 @@
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ChatDaily.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yishuiliunian\/DZObjectProxy.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "03FA80AED54CE9FFC6072D8141B937CB76AE9BED"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.catchitime.com:8081\/diffusion\/EK\/elementkit.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
@@ -141,6 +150,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yishuiliunian\/MRLogicInjection.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88691D031F587C6C381D4C777E7313C3EF0CD01B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yishuiliunian\/DZShyNavigationBar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9855FDC0D88C16A799D7A30EA26507DC3F96B860"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yishuiliunian\/DZCDNFiles",
