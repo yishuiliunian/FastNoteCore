@@ -42,6 +42,7 @@ target 'ChatDaily' do
   LibPod('DZURLRoute')
   LibPod('DZShyNavigationBar')
   LibPod('DZObjectProxy')
+  LibPod('DZUILogs')
 
   BizPod('ChatDailyMain')
   

@@ -7,13 +7,15 @@ PODS:
   - AMapSearch (4.4.0):
     - AMapFoundation (~> 1.2)
   - BEMCheckBox (1.2.1)
+  - Bugly (2.4.2)
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
   - ChatDailyMain (0.1.0):
-    - GTScrollNavigationBar
+    - Bugly
     - LKDBHelper
     - MGSwipeTableCell
+    - TalkingData-AppAnalytics
   - CocoaLumberjack (3.0.0):
     - CocoaLumberjack/Default (= 3.0.0)
     - CocoaLumberjack/Extensions (= 3.0.0)
@@ -75,6 +77,9 @@ PODS:
     - ElementKit
   - DZShyNavigationBar (0.1.0)
   - DZSinglonFactory (1.0.3)
+  - DZUILogs (0.1.0):
+    - DZViewControllerLifeCircleAction
+    - TalkingData-AppAnalytics
   - DZURLRoute (0.2.0):
     - DZViewControllerLifeCircleAction
     - NSString-UrlEncode
@@ -94,7 +99,6 @@ PODS:
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
-  - GTScrollNavigationBar (0.4)
   - HexColors (4.0.0)
   - LKDBHelper (2.4):
     - FMDB
@@ -116,6 +120,7 @@ PODS:
   - StyleSheet (0.1.5)
   - SVProgressHUD (2.0.4)
   - SZTextView (1.2.2)
+  - TalkingData-AppAnalytics (2.2.36)
   - TransitionKit (2.2.1)
   - YHMapLocation (0.1.0):
     - AMap2DMap
@@ -150,6 +155,7 @@ DEPENDENCIES:
   - DZProgrameDefines (from `../Libs/DZProgrameDefines`)
   - DZScene (from `../Libs/DZScene`)
   - DZShyNavigationBar (from `../Libs/DZShyNavigationBar`)
+  - DZUILogs (from `../Libs/DZUILogs`)
   - DZURLRoute (from `../Libs/DZURLRoute`)
   - DZViewControllerLifeCircleAction (from `../Libs/DZViewControllerLifeCircleAction`)
   - EKInputExtention (from `../Libs/EKInputExtention`)
@@ -197,6 +203,8 @@ EXTERNAL SOURCES:
     :path: "../Libs/DZScene"
   DZShyNavigationBar:
     :path: "../Libs/DZShyNavigationBar"
+  DZUILogs:
+    :path: "../Libs/DZUILogs"
   DZURLRoute:
     :path: "../Libs/DZURLRoute"
   DZViewControllerLifeCircleAction:
@@ -222,8 +230,9 @@ SPEC CHECKSUMS:
   AMapLocation: 3f2005c6dec6a7a1107258d0cde43b9d7399d217
   AMapSearch: a6c7c83905dbe12aa059c7ff83cb0726cb4fc32f
   BEMCheckBox: 264b8b72aa92adbfefa265cc58a0cdb86b207b9f
+  Bugly: b09cd3c7e54048a0e079be88a7a99610f14eab8f
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
-  ChatDailyMain: ae6823daaf5ca360919b9661593bc54516a392a9
+  ChatDailyMain: c571cfa63f47b5b422ee79c02a6c43e5449ed29f
   CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
@@ -245,13 +254,13 @@ SPEC CHECKSUMS:
   DZScene: b7ef5819da7620de0d283b1efd34829e3eab8eb5
   DZShyNavigationBar: 4a8f9b5789470f2df067c335a5a42dc339dfd5ed
   DZSinglonFactory: c6c1e41f7688a9112a3a6b69fc246ea3a1180aed
+  DZUILogs: 1a8d02edb886454ff4d00d87a932c8dad287f21b
   DZURLRoute: fca1bbb98c236fe6ff1dd682d522f3cb82d13220
   DZViewControllerLifeCircleAction: ea2ee041ace05e198c7712a94240e1c376cd77ae
   EKInputExtention: a604ef066fcfbac265de884159b6edc19a3f070e
   ElementKit: 483a24babbe54279993e9008ba319eb79e8e6ef8
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
-  GTScrollNavigationBar: 17e80b99c4250c92c82f31cd5e052a99422c2195
   HexColors: 5f95843ef89aff6a72e1fd3a8ebabf205cc43379
   LKDBHelper: 1162892ca4ffc28029070d6f40f57b333133f1c4
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
@@ -267,11 +276,12 @@ SPEC CHECKSUMS:
   StyleSheet: 4bd20fed26488f27abcfc18225384b1c4125a551
   SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
   SZTextView: 3a81174dce0710a9ab069bc73a813e6df53b9c82
+  TalkingData-AppAnalytics: 86a29678b5991c2e588284c91664ef3e721946d8
   TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
   YHMapLocation: 64e62378e4024a2687a0c671ec7096a5e98b1d11
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: ac09660c9ccd9b817f409a20caa6f5587444d2ae
 
-PODFILE CHECKSUM: b1460874459b912d4eb767642c261b8a1d61bcd4
+PODFILE CHECKSUM: fca11a0e390f8856dd73d5c4656d61174749687e
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.1

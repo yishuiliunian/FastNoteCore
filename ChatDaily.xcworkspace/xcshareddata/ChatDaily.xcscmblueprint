@@ -12,6 +12,7 @@
     "5EB8331F151BA00A662DE3B801D877B8104985FE" : 9223372036854775807,
     "72209EB7DEDAC41975ABC9FE387BA92E76578519" : 9223372036854775807,
     "A859CBAA3948FE86A55FEDD3EBCB3BEFA0691552" : 9223372036854775807,
+    "A29DEFF12B1E3A7B77915AE2FD0765D64A5FB782" : 9223372036854775807,
     "99C3BA9AAFE828F07EEB98D8C8F7A5BF3F4E012B" : 9223372036854775807,
     "54B79F3B36520EE6C1F2D2B505BF10DF771C60A1" : 9223372036854775807,
     "B3E13863CC479548795E63923F81705BF673A611" : 9223372036854775807,
@@ -42,6 +43,7 @@
     "5EB8331F151BA00A662DE3B801D877B8104985FE" : "Libs\/DZLogger\/",
     "72209EB7DEDAC41975ABC9FE387BA92E76578519" : "Libs\/DZAdjustFrame\/",
     "A859CBAA3948FE86A55FEDD3EBCB3BEFA0691552" : "Libs\/DZAudio\/",
+    "A29DEFF12B1E3A7B77915AE2FD0765D64A5FB782" : "Libs\/DZUILogs\/",
     "99C3BA9AAFE828F07EEB98D8C8F7A5BF3F4E012B" : "Libs\/DZCDNFiles\/",
     "54B79F3B36520EE6C1F2D2B505BF10DF771C60A1" : "Bizs\/ChatDailyMain\/",
     "B3E13863CC479548795E63923F81705BF673A611" : "Libs\/DZScene\/",
@@ -170,6 +172,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yishuiliunian\/MWPhotoBrowser",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F9B14DA276794D9192F387F0CC62561009373D0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yishuiliunian\/DZUILogs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A29DEFF12B1E3A7B77915AE2FD0765D64A5FB782"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yishuiliunian\/DZAudio.git",
