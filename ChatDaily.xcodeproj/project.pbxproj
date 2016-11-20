@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4883B4671D98CF88DAB60BCE /* libPods-ChatDaily.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E921C94DC83679DEE9147CB /* libPods-ChatDaily.a */; };
+		651895281DE19046004D945F /* pullreferesh.plist in Resources */ = {isa = PBXBuildFile; fileRef = 651895271DE19046004D945F /* pullreferesh.plist */; };
 		658ED01E1DDA13D400E26435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6591090C1D68124A00361896 /* Assets.xcassets */; };
 		659109021D68124A00361896 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 659109011D68124A00361896 /* main.m */; };
 		659109101D68124A00361896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6591090E1D68124A00361896 /* LaunchScreen.storyboard */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		0E921C94DC83679DEE9147CB /* libPods-ChatDaily.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatDaily.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FDB7B7DB8991BAB5D2E781 /* libPods-ChatDailyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatDailyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		651895271DE19046004D945F /* pullreferesh.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pullreferesh.plist; sourceTree = "<group>"; };
 		659108FD1D68124A00361896 /* ChatDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		659109011D68124A00361896 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6591090C1D68124A00361896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				6591090E1D68124A00361896 /* LaunchScreen.storyboard */,
 				659109111D68124A00361896 /* Info.plist */,
 				659109001D68124A00361896 /* Supporting Files */,
+				651895271DE19046004D945F /* pullreferesh.plist */,
 			);
 			path = ChatDaily;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			files = (
 				658ED01E1DDA13D400E26435 /* Assets.xcassets in Resources */,
 				659109101D68124A00361896 /* LaunchScreen.storyboard in Resources */,
+				651895281DE19046004D945F /* pullreferesh.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,11 +8,13 @@ PODS:
     - AMapFoundation (~> 1.2)
   - BEMCheckBox (1.2.1)
   - Bugly (2.4.2)
+  - CBStoreHouseRefreshControl (1.0)
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
   - ChatDailyMain (0.1.0):
     - Bugly
+    - CBStoreHouseRefreshControl
     - LKDBHelper
     - MGSwipeTableCell
     - TalkingData-AppAnalytics
@@ -231,8 +233,9 @@ SPEC CHECKSUMS:
   AMapSearch: a6c7c83905dbe12aa059c7ff83cb0726cb4fc32f
   BEMCheckBox: 264b8b72aa92adbfefa265cc58a0cdb86b207b9f
   Bugly: b09cd3c7e54048a0e079be88a7a99610f14eab8f
+  CBStoreHouseRefreshControl: a814bd725e74ff4c1e8dd96eb02358199b0da04f
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
-  ChatDailyMain: c571cfa63f47b5b422ee79c02a6c43e5449ed29f
+  ChatDailyMain: d6a258444d9c25614f9ea787e166c9c619fa63c6
   CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
