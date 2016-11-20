@@ -54,6 +54,7 @@ target 'ChatDaily' do
   pod 'DateTools'
   pod 'YYModel'
   pod 'QBPopupMenu'
+  pod 'CTFeedback'
 
 #  pod 'ShareSDK3'
 #  pod 'ShareSDK3/ShareSDKPlatforms/QQ'

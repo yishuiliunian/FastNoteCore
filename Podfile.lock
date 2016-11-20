@@ -26,6 +26,7 @@ PODS:
     - CocoaLumberjack/Core
   - CocoaLumberjack/Extensions (3.0.0):
     - CocoaLumberjack/Default
+  - CTFeedback (1.1.1)
   - DACircularProgress (2.3.1)
   - DateTools (1.7.0)
   - DZAdjustFrame (0.2.5):
@@ -140,6 +141,7 @@ PODS:
 DEPENDENCIES:
   - ChameleonFramework
   - ChatDailyMain (from `../Bizs/ChatDailyMain`)
+  - CTFeedback
   - DateTools
   - DZAdjustFrame (from `../Libs/DZAdjustFrame`)
   - DZAlertPool (from `../Libs/DZAlertPool`)
@@ -237,6 +239,7 @@ SPEC CHECKSUMS:
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   ChatDailyMain: d6a258444d9c25614f9ea787e166c9c619fa63c6
   CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
+  CTFeedback: 6f128606e0d26d46075c3fa9fc33884372df8675
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
   DZAdjustFrame: 9f6bec77a35012eab390a0593e47ef669bdf6324
@@ -285,6 +288,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: ac09660c9ccd9b817f409a20caa6f5587444d2ae
 
-PODFILE CHECKSUM: f13bc5a46ba667797ad35d29500152cd31efb7ea
+PODFILE CHECKSUM: d1ea34279c6d16a20901a430bf6e972ea9186db2
 
 COCOAPODS: 1.0.1

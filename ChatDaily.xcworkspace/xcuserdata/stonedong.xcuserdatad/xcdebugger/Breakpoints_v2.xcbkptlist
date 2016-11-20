@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Bizs/ChatDailyMain/Pod/Classes/Bizs/Daily/CDDailyListElement.m"
-            timestampString = "501324843.1257"
+            timestampString = "501330298.734873"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "157"
-            endingLineNumber = "157"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
             landmarkName = "-inputLocation:"
             landmarkType = "7">
          </BreakpointContent>
@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Bizs/ChatDailyMain/Pod/Classes/Bizs/Daily/CDDailyListElement.m"
-            timestampString = "501324843.1257"
+            timestampString = "501330298.734873"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "155"
-            endingLineNumber = "155"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
             landmarkName = "-inputLocation:"
             landmarkType = "7">
             <Locations>
@@ -218,11 +218,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Bizs/ChatDailyMain/Pod/Classes/Bizs/Daily/CDDailyListViewController.m"
-            timestampString = "501323262.472292"
+            timestampString = "501330072.060984"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "-viewWillAppear:"
             landmarkType = "7">
          </BreakpointContent>
@@ -234,11 +234,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Bizs/ChatDailyMain/Pod/Classes/Bizs/Daily/CDDailyListViewController.m"
-            timestampString = "501323410.271866"
+            timestampString = "501330072.060984"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "-pullToReferesh"
             landmarkType = "7">
          </BreakpointContent>
@@ -272,6 +272,22 @@
             startingLineNumber = "112"
             endingLineNumber = "112"
             landmarkName = "-handleLayoutHeight:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Bizs/ChatDailyMain/Pod/Classes/Bizs/Daily/Style/CDCardStyleMapElement.m"
+            timestampString = "501327976.498658"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "-handleSelectedInViewController:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

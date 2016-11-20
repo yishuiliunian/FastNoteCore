@@ -9,7 +9,10 @@
 /* Begin PBXBuildFile section */
 		4883B4671D98CF88DAB60BCE /* libPods-ChatDaily.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E921C94DC83679DEE9147CB /* libPods-ChatDaily.a */; };
 		651895281DE19046004D945F /* pullreferesh.plist in Resources */ = {isa = PBXBuildFile; fileRef = 651895271DE19046004D945F /* pullreferesh.plist */; };
+		6518952A1DE1A738004D945F /* demoImageNote.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 651895291DE1A738004D945F /* demoImageNote.jpg */; };
+		6518952C1DE1AAF9004D945F /* audioDemo.acc in Resources */ = {isa = PBXBuildFile; fileRef = 6518952B1DE1AA15004D945F /* audioDemo.acc */; };
 		658ED01E1DDA13D400E26435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6591090C1D68124A00361896 /* Assets.xcassets */; };
+		6590F8461DE1B41F0093AF5A /* YHAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6590F8451DE1B41F0093AF5A /* YHAboutViewController.xib */; };
 		659109021D68124A00361896 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 659109011D68124A00361896 /* main.m */; };
 		659109101D68124A00361896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6591090E1D68124A00361896 /* LaunchScreen.storyboard */; };
 		6591091B1D68124A00361896 /* ChatDailyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6591091A1D68124A00361896 /* ChatDailyUITests.m */; };
@@ -30,6 +33,10 @@
 		0E921C94DC83679DEE9147CB /* libPods-ChatDaily.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatDaily.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FDB7B7DB8991BAB5D2E781 /* libPods-ChatDailyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatDailyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		651895271DE19046004D945F /* pullreferesh.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pullreferesh.plist; sourceTree = "<group>"; };
+		651895291DE1A738004D945F /* demoImageNote.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demoImageNote.jpg; sourceTree = "<group>"; };
+		6518952B1DE1AA15004D945F /* audioDemo.acc */ = {isa = PBXFileReference; lastKnownFileType = file; path = audioDemo.acc; sourceTree = "<group>"; };
+		6590F8441DE1B3B40093AF5A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		6590F8451DE1B41F0093AF5A /* YHAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YHAboutViewController.xib; sourceTree = "<group>"; };
 		659108FD1D68124A00361896 /* ChatDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		659109011D68124A00361896 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6591090C1D68124A00361896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +105,9 @@
 		659108FF1D68124A00361896 /* ChatDaily */ = {
 			isa = PBXGroup;
 			children = (
+				6590F8451DE1B41F0093AF5A /* YHAboutViewController.xib */,
+				6518952B1DE1AA15004D945F /* audioDemo.acc */,
+				651895291DE1A738004D945F /* demoImageNote.jpg */,
 				6591090C1D68124A00361896 /* Assets.xcassets */,
 				6591090E1D68124A00361896 /* LaunchScreen.storyboard */,
 				659109111D68124A00361896 /* Info.plist */,
@@ -221,7 +231,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6518952C1DE1AAF9004D945F /* audioDemo.acc in Resources */,
+				6590F8461DE1B41F0093AF5A /* YHAboutViewController.xib in Resources */,
 				658ED01E1DDA13D400E26435 /* Assets.xcassets in Resources */,
+				6518952A1DE1A738004D945F /* demoImageNote.jpg in Resources */,
 				659109101D68124A00361896 /* LaunchScreen.storyboard in Resources */,
 				651895281DE19046004D945F /* pullreferesh.plist in Resources */,
 			);
@@ -375,6 +388,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6591090F1D68124A00361896 /* Base */,
+				6590F8441DE1B3B40093AF5A /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -386,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -433,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
