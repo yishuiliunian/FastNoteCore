@@ -17,6 +17,8 @@
 		659109101D68124A00361896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6591090E1D68124A00361896 /* LaunchScreen.storyboard */; };
 		6591091B1D68124A00361896 /* ChatDailyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6591091A1D68124A00361896 /* ChatDailyUITests.m */; };
 		9C6BDF96337D75B460DD0CBA /* libPods-ChatDailyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FDB7B7DB8991BAB5D2E781 /* libPods-ChatDailyUITests.a */; };
+		E13324391DFFEA1200B1B395 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E13324381DFFEA1200B1B395 /* StoreKit.framework */; };
+		E133243B1DFFEA1C00B1B395 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E133243A1DFFEA1C00B1B395 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		6AE49AC5956EA8CE89D799D1 /* Pods-ChatDaily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDaily.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatDaily/Pods-ChatDaily.release.xcconfig"; sourceTree = "<group>"; };
 		6FDC3FDC362B6425E4A52361 /* Pods-ChatDaily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDaily.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatDaily/Pods-ChatDaily.debug.xcconfig"; sourceTree = "<group>"; };
 		73D4EDABBA2D69E29295D5DD /* Pods-ChatDailyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDailyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatDailyUITests/Pods-ChatDailyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E13324371DFFEA0400B1B395 /* ChatDaily.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChatDaily.entitlements; sourceTree = "<group>"; };
+		E13324381DFFEA1200B1B395 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E133243A1DFFEA1C00B1B395 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EFDD243221764F7CAB91DDC1 /* Pods-ChatDailyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDailyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatDailyUITests/Pods-ChatDailyUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +62,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4883B4671D98CF88DAB60BCE /* libPods-ChatDaily.a in Frameworks */,
+				E133243B1DFFEA1C00B1B395 /* MapKit.framework in Frameworks */,
+				E13324391DFFEA1200B1B395 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +112,7 @@
 		659108FF1D68124A00361896 /* ChatDaily */ = {
 			isa = PBXGroup;
 			children = (
+				E13324371DFFEA0400B1B395 /* ChatDaily.entitlements */,
 				6590F8451DE1B41F0093AF5A /* YHAboutViewController.xib */,
 				6518952B1DE1AA15004D945F /* audioDemo.acc */,
 				651895291DE1A738004D945F /* demoImageNote.jpg */,
@@ -137,6 +145,8 @@
 		F75D8886BF9EB8E0E6B416ED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E133243A1DFFEA1C00B1B395 /* MapKit.framework */,
+				E13324381DFFEA1200B1B395 /* StoreKit.framework */,
 				0E921C94DC83679DEE9147CB /* libPods-ChatDaily.a */,
 				36FDB7B7DB8991BAB5D2E781 /* libPods-ChatDailyUITests.a */,
 			);
@@ -200,6 +210,17 @@
 					659108FC1D68124A00361896 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 9WZQSGSX3A;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					659109151D68124A00361896 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -262,7 +283,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		4497260AA05CC5F31A5CD8EA /* [CP] Copy Pods Resources */ = {
@@ -351,7 +372,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
