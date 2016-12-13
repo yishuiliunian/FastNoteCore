@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  ChatDaily
+
+  Created by stonedong on 16/11/20.
+  Copyright © 2016年 stonedong. All rights reserved.
+*/
+CFBundleDisplayName="速记";
+"FastDiary"="速记";
