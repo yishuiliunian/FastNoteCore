@@ -35,3 +35,5 @@ Podfile.lock
 archive/
 infer-out/
 YaoHe.xcworkspace/xcshareddata/
+*.app.dYSM.zip
+ChatDaily.app.dSYM.zip
