@@ -1,1 +1,0 @@
-0000000000000000000000000000000000000000 ae4582abbf982af5c995dcc4334c9223d6b09390 stonedong <yishuiliunian@gmail.com> 1471665099 +0800	fetch --progress origin --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master: storing head
