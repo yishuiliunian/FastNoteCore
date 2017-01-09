@@ -56,7 +56,6 @@
 		6AE49AC5956EA8CE89D799D1 /* Pods-ChatDaily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDaily.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatDaily/Pods-ChatDaily.release.xcconfig"; sourceTree = "<group>"; };
 		6FDC3FDC362B6425E4A52361 /* Pods-ChatDaily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDaily.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatDaily/Pods-ChatDaily.debug.xcconfig"; sourceTree = "<group>"; };
 		73D4EDABBA2D69E29295D5DD /* Pods-ChatDailyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDailyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatDailyUITests/Pods-ChatDailyUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E13324371DFFEA0400B1B395 /* ChatDaily.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChatDaily.entitlements; sourceTree = "<group>"; };
 		E13324381DFFEA1200B1B395 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		E133243A1DFFEA1C00B1B395 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EFDD243221764F7CAB91DDC1 /* Pods-ChatDailyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDailyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatDailyUITests/Pods-ChatDailyUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,7 +118,6 @@
 		659108FF1D68124A00361896 /* ChatDaily */ = {
 			isa = PBXGroup;
 			children = (
-				E13324371DFFEA0400B1B395 /* ChatDaily.entitlements */,
 				6550C09A1DE1BD9800BAD62A /* Info.plist */,
 				6550C0A01DE1BDC800BAD62A /* InfoPlist.strings */,
 				6590F8451DE1B41F0093AF5A /* YHAboutViewController.xib */,
@@ -229,8 +227,8 @@
 							com.apple.Maps.iOS = {
 								enabled = 1;
 							};
-							com.apple.InAppPurchase = {
-								enabled = 1;
+							com.apple.Push = {
+								enabled = 0;
 							};
 						};
 					};
